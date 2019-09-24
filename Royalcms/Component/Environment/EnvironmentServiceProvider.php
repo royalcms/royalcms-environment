@@ -21,8 +21,7 @@ class EnvironmentServiceProvider extends ServiceProvider
 	 */
 	public function register()
 	{
-		$this->royalcms->bindShared('phpinfo', function($royalcms)
-		{
+		$this->royalcms->singleton('phpinfo', function($royalcms) {
 			return new Phpinfo();
 		});
 	}
