@@ -28,7 +28,7 @@
         },
         "royalcms": {
             "providers": [
-                "Royalcms\\Component\\Environment\\AppServiceProvider"
+                "Royalcms\\Component\\Environment\\EnvironmentServiceProvider"
             ],
             "aliases": {
                 "RC_ENV": "Royalcms\\Component\\Environment\\Facades\\Environment"
